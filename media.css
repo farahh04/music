@@ -1,0 +1,45 @@
+@media screen and (max-width:1200px){
+    header {
+       
+        width: 95%;
+        transition: .5s linear;
+    }
+    header .menu_side, .song_side {
+        width: 30%;
+       
+    }
+    header .song_side {
+        width: 67%;
+    }
+    header .song_side::before {
+       
+        width: 65%;
+        
+    }
+    header .song_side .content {
+    height: 18%;
+    
+}
+} 
+  /* @media screen and (max-width:930px){
+    header .menu_side{
+       z-index: 999;
+        width: 40%;
+        position: absolute;
+        transition: .1s linear;
+    }
+    header  .song_side {
+        width: 100%;
+       
+    }
+    header .song_side {
+        width: 67%;
+    }
+    header .master_play {
+       
+      position: absolute;
+      bottom: 0;
+        
+    }
+   
+}  */
